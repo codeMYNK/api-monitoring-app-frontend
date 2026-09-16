@@ -95,9 +95,10 @@ function AuthGate() {
   if (isAuthenticated === null) {
     return (
       <div style={{ height: "100vh", display: "grid", placeItems: "center" }}>
-        Checking authentication…
+        <div>Checking authentication…</div>
+        <div>Connecting to Backend</div>
       </div>
-    );
+    )
   }
 
   if (!isAuthenticated) {
