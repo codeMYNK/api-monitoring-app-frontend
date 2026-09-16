@@ -18,7 +18,8 @@ export default defineConfig({
         port: 5173,
         proxy: {
             '/api': {
-                target: 'https://server-api-app-latest.onrender.com',
+                // target: 'https://server-api-app-latest.onrender.com',
+                target: 'https://api-monitoring-app-server.onrender.com',
                 // target: 'http://localhost:8080',
                 changeOrigin: true,
             },
